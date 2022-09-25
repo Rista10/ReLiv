@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "login.h"
 #include "createaccount.h"
+#include "homepage.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)

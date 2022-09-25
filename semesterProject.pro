@@ -10,17 +10,20 @@ CONFIG += c++17
 
 SOURCES += \
     createaccount.cpp \
+    homepage.cpp \
     login.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     createaccount.h \
+    homepage.h \
     login.h \
     mainwindow.h
 
 FORMS += \
     createaccount.ui \
+    homepage.ui \
     login.ui \
     mainwindow.ui
 

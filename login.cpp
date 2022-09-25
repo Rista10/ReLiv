@@ -1,6 +1,7 @@
 #include "login.h"
 #include "ui_login.h"
 #include "QMessageBox"
+#include "homepage.h"
 
 login::login(QWidget *parent) :
     QDialog(parent),
@@ -20,7 +21,9 @@ void login::on_signin_clicked()
     QString password = ui->password->text();
 
         if(username ==  "test" && password == "test") {
-            QMessageBox::information(this, "Login", "You are logged in");
+            homepage create;
+            create.setModal(true);
+            create.exec();
 
         }
         else {

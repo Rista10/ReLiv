@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>homepage</class>
+ <widget class="QDialog" name="homepage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>991</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+background-image:url(&quot;C:/Users/user/Documents/semesterProject/homepage.jpg&quot;);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>170</y>
+     <width>471</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Donte blood</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>230</y>
+     <width>471</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Save lives</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>310</y>
+     <width>451</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>A single drop of blood can make a huge difference.
+So be the reason for someone's heartbeat.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seemore">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>390</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#seemore
+{
+ background-color:#D81E12;
+border-radius:15px;
+}
+#seemore:hover
+{
+ background-color:#F25019;
+}</string>
+   </property>
+   <property name="text">
+    <string>See more</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="donate">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>30</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#donate
+{
+ background-color:#rgb(255, 255, 255);
+border-radius:8px;
+}
+#donate:hover
+{
+ background-color:#D81E12;
+}</string>
+   </property>
+   <property name="text">
+    <string>Donate blood</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="requestblood">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>30</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#requestblood
+{
+ background-color:#rgb(255, 255, 255);
+border-radius:8px;
+}
+#requestblood:hover
+{
+ background-color:#D81E12;
+}</string>
+   </property>
+   <property name="text">
+    <string>Request blood</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#home
+
+{
+ background-color:#rgb(255, 255, 255);
+border-radius:8px;
+}
+#home:hover
+{
+ background-color:#D81E12;
+}</string>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="aboutus">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>30</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#aboutus
+{
+ background-color:#rgb(255, 255, 255);
+border-radius:8px;
+}
+#aboutus:hover
+{
+ background-color:#D81E12;
+}</string>
+   </property>
+   <property name="text">
+    <string>About us</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="why">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>30</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#why
+{
+ background-color:#rgb(255, 255, 255);
+border-radius:8px;
+}
+#why:hover
+{
+ background-color:#D81E12;
+}</string>
+   </property>
+   <property name="text">
+    <string>Why become donor</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="get">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>30</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#get
+{
+ background-color:#rgb(255, 255, 255);
+border-radius:8px;
+}
+#get:hover
+{
+ background-color:#D81E12;
+}</string>
+   </property>
+   <property name="text">
+    <string>Dashboard</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
